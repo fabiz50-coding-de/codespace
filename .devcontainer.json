@@ -1,0 +1,16 @@
+{
+  "image" : "docker.io/python:latest",
+  "customizations" : {
+    "vscode": { 
+      "extensions":["ms-python.python"],
+      
+      "settings":{
+        "editor.inlineSuggest.enabled": false,
+        "editor.inlineSuggest.suppressSuggestions": true,
+        "editor.quickSuggestions": {"other": "off"},
+        "editor.autoClosingQuotes": "never",
+        "editor.autoClosingDelete": "never"
+      }
+    }
+  }
+}
